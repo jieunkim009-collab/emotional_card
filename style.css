@@ -1,54 +1,79 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}html,
-body{
-    width:100%;
-    height:100%;
-}body{
-    background:#f5fbff;
-    font-family:sans-serif;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:20px;
-}img{
-    width:85vw;
-    max-width:260px;
-    border-radius:50%;
-    margin-bottom:20px;
-}h1{
-    font-size:10vw;
-    margin-top:15px;
-    margin-bottom:8px;
-}h2{
-    font-size:5vw;
-    color:#666;
-    margin-bottom:18px;
-}p{
-    font-size:4.2vw;
-    line-height:1.6;
-    margin-bottom:28px;
-}a{
-    display:block;
-    width:100%;
-    padding:18px;
-    margin:10px 0;
-    background:white;
-    border-radius:18px;
-    text-decoration:none;
-    color:#333;
-    font-size:5vw;
-    font-weight:bold;
-    box-shadow:0 4px 12px rgba(0,0,0,.08);
-    transition:.15s;
-}a:active{
-    transform:scale(.96);
-}.footer{
-    margin-top:35px;
-    font-size:22px;
-    color:#999;
-}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+김지은 디지털 명함
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<img src="profile.png">
+
+
+<h1>
+김지은
+</h1>
+
+
+<h2>
+AI 디지털배움터
+</h2>
+
+
+<p>
+AI 감성 디자이너<br>
+AI 콘텐츠 제작<br>
+디지털 교육
+</p>
+
+
+
+<a href="contact.vcf">
+📱 연락처 저장
+</a>
+
+
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=jieunkim009@gmail.com" target="_blank">
+📧 Gmail로 메일 보내기
+</a>
+
+
+
+<a href="https://blog.naver.com/suit_yourself">
+📚 블로그 방문
+</a>
+
+
+
+<a href="https://youtube.com/@eunoia__kk">
+🎬 유튜브 방문
+</a>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
